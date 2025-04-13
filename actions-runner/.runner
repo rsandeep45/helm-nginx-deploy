@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 21,
+  "agentName": "DESKTOP-368KI6K",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus26.actions.githubusercontent.com/gRTGRm5GewqDL6a2vxHprAOwkbdnBzfx3ZggNgc0mh6qMOTX2e/",
+  "gitHubUrl": "https://github.com/rsandeep45/helm-nginx-deploy",
+  "workFolder": "_work"
+}

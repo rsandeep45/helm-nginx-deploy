@@ -1,0 +1,12 @@
+#!/bin/bash
+# deploy-local.sh
+
+# Ensure Minikube is running
+minikube status || minikube start
+
+# Set Docker env if needed
+eval $(minikube docker-env)
+
+# Deploy using Helm
+helm upgrade --install nginx ./charts/nginx \
+  --namespace default --create-namespace
