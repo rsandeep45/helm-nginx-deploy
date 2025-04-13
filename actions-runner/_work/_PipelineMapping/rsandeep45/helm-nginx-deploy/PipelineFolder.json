@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "rsandeep45/helm-nginx-deploy",
+  "pipelineDirectory": "helm-nginx-deploy",
+  "workspaceDirectory": "helm-nginx-deploy\\helm-nginx-deploy",
+  "repositories": {
+    "rsandeep45/helm-nginx-deploy": {
+      "repositoryPath": "helm-nginx-deploy\\helm-nginx-deploy",
+      "lastRunOn": "04/13/2025 19:34:15 +05:30"
+    }
+  },
+  "lastRunOn": "04/13/2025 19:34:15 +05:30"
+}
