@@ -1,32 +1,37 @@
-name: Deploy NGINX via Helm
+name: Manual Deploy (Clean — No Checkout)
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
+
+permissions:
+  contents: none  # 💥 disables default checkout step
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, windows]
+
+    defaults:
+      run:
+        shell: powershell
+
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
-
-      - name: Setup kubectl
-        uses: azure/setup-kubectl@v3
-        with:
-          version: 'latest'
-
-      - name: Setup Helm
-        uses: azure/setup-helm@v3
-        with:
-          version: 'latest'
-
-      - name: Configure Kubeconfig
+      - name: Manual Git Clone & Deploy
         run: |
-          echo "${{ secrets.KUBECONFIG_CONTENT }}" > kubeconfig
-          export KUBECONFIG=$(pwd)/kubeconfig
+          $repoPath = "E:/gitactions/actions-runner/_work/helm-nginx-deploy/helm-nginx-deploy"
 
-      - name: Deploy NGINX Helm Chart
-        run: |
-          helm upgrade --install nginx ./charts/nginx
+          # Trust this directory for Git
+          git config --global --add safe.directory $repoPath
+
+          # Clean up any previous repo
+          if (Test-Path $repoPath) {
+            Remove-Item -Recurse -Force $repoPath
+          }
+
+          # Clone your GitHub repo
+          git clone https://github.com/rsandeep45/helm-nginx-deploy.git $repoPath
+
+          # Run your deploy script
+          Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+          cd $repoPath
+          .\deploy-local.ps1
