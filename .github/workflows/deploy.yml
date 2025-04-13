@@ -6,13 +6,14 @@ on:
 
 jobs:
   deploy:
-    runs-on: self-hosted
+    runs-on: [self-hosted, windows]
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Run PowerShell Script via CMD
-        shell: cmd
+      - name: Run PowerShell Deployment Script
         run: |
-          call powershell.exe -NoProfile -ExecutionPolicy Bypass -File deploy-local.ps1
+          Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+          .\deploy-local.ps1
+        shell: powershell
