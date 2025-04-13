@@ -12,8 +12,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Run PowerShell Deployment Script
-        shell: powershell
+      - name: Run PowerShell Script via CMD
+        shell: cmd
         run: |
-          Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-          .\deploy-local.ps1
+          call powershell.exe -NoProfile -ExecutionPolicy Bypass -File deploy-local.ps1

@@ -1,0 +1,168 @@
+[2025-04-13 14:17:28Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-04-13 14:17:28Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:17:28Z INFO HostContext] Well known directory 'Root': 'E:\gitactions\actions-runner'
+[2025-04-13 14:17:28Z INFO HostContext] Well known config file 'Credentials': 'E:\gitactions\actions-runner\.credentials'
+[2025-04-13 14:17:28Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:17:28Z INFO HostContext] Well known directory 'Root': 'E:\gitactions\actions-runner'
+[2025-04-13 14:17:28Z INFO HostContext] Well known config file 'Runner': 'E:\gitactions\actions-runner\.runner'
+[2025-04-13 14:17:28Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2025-04-13 14:17:28Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19045.
+[2025-04-13 14:17:28Z INFO Listener] Version: 2.323.0
+[2025-04-13 14:17:28Z INFO Listener] Commit: d8b82f44a9ec0258904d5869ae683c31d5aac299
+[2025-04-13 14:17:28Z INFO Listener] Culture: en-IN
+[2025-04-13 14:17:28Z INFO Listener] UI Culture: en-US
+[2025-04-13 14:17:28Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:17:28Z INFO HostContext] Well known directory 'Root': 'E:\gitactions\actions-runner'
+[2025-04-13 14:17:28Z INFO Listener] Validating directory permissions for: 'E:\gitactions\actions-runner'
+[2025-04-13 14:17:28Z INFO CommandLineParser] Parse
+[2025-04-13 14:17:28Z INFO CommandLineParser] Parsing 1 args
+[2025-04-13 14:17:28Z INFO CommandLineParser] parsing argument
+[2025-04-13 14:17:28Z INFO CommandLineParser] HasArgs: False
+[2025-04-13 14:17:28Z INFO CommandLineParser] Adding Command: run
+[2025-04-13 14:17:28Z INFO Listener] Arguments parsed
+[2025-04-13 14:17:29Z INFO Runner] ExecuteCommand
+[2025-04-13 14:17:29Z INFO ConfigurationStore] currentAssemblyLocation: E:\gitactions\actions-runner\bin\Runner.Listener.dll
+[2025-04-13 14:17:29Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:17:29Z INFO ConfigurationStore] binPath: E:\gitactions\actions-runner\bin
+[2025-04-13 14:17:29Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:17:29Z INFO HostContext] Well known directory 'Root': 'E:\gitactions\actions-runner'
+[2025-04-13 14:17:29Z INFO ConfigurationStore] RootFolder: E:\gitactions\actions-runner
+[2025-04-13 14:17:29Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:17:29Z INFO HostContext] Well known directory 'Root': 'E:\gitactions\actions-runner'
+[2025-04-13 14:17:29Z INFO HostContext] Well known config file 'Runner': 'E:\gitactions\actions-runner\.runner'
+[2025-04-13 14:17:29Z INFO ConfigurationStore] ConfigFilePath: E:\gitactions\actions-runner\.runner
+[2025-04-13 14:17:29Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:17:29Z INFO HostContext] Well known directory 'Root': 'E:\gitactions\actions-runner'
+[2025-04-13 14:17:29Z INFO HostContext] Well known config file 'MigratedRunner': 'E:\gitactions\actions-runner\.runner_migrated'
+[2025-04-13 14:17:29Z INFO ConfigurationStore] MigratedConfigFilePath: E:\gitactions\actions-runner\.runner_migrated
+[2025-04-13 14:17:29Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:17:29Z INFO HostContext] Well known directory 'Root': 'E:\gitactions\actions-runner'
+[2025-04-13 14:17:29Z INFO HostContext] Well known config file 'Credentials': 'E:\gitactions\actions-runner\.credentials'
+[2025-04-13 14:17:29Z INFO ConfigurationStore] CredFilePath: E:\gitactions\actions-runner\.credentials
+[2025-04-13 14:17:29Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:17:29Z INFO HostContext] Well known directory 'Root': 'E:\gitactions\actions-runner'
+[2025-04-13 14:17:29Z INFO HostContext] Well known config file 'MigratedCredentials': 'E:\gitactions\actions-runner\.credentials_migrated'
+[2025-04-13 14:17:29Z INFO ConfigurationStore] MigratedCredFilePath: E:\gitactions\actions-runner\.credentials_migrated
+[2025-04-13 14:17:29Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:17:29Z INFO HostContext] Well known directory 'Root': 'E:\gitactions\actions-runner'
+[2025-04-13 14:17:29Z INFO HostContext] Well known config file 'Service': 'E:\gitactions\actions-runner\.service'
+[2025-04-13 14:17:29Z INFO ConfigurationStore] ServiceConfigFilePath: E:\gitactions\actions-runner\.service
+[2025-04-13 14:17:29Z INFO CommandSettings] Flag 'help': 'False'
+[2025-04-13 14:17:29Z INFO CommandSettings] Flag 'version': 'False'
+[2025-04-13 14:17:29Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-04-13 14:17:29Z INFO CommandSettings] Flag 'check': 'False'
+[2025-04-13 14:17:29Z INFO CommandSettings] Command 'configure': 'False'
+[2025-04-13 14:17:29Z INFO CommandSettings] Command 'remove': 'False'
+[2025-04-13 14:17:29Z INFO CommandSettings] Command 'warmup': 'False'
+[2025-04-13 14:17:29Z INFO ConfigurationManager] LoadSettings
+[2025-04-13 14:17:29Z INFO ConfigurationStore] IsConfigured()
+[2025-04-13 14:17:29Z INFO ConfigurationStore] IsConfigured: True
+[2025-04-13 14:17:29Z INFO ConfigurationManager] Is configured: True
+[2025-04-13 14:17:29Z INFO ConfigurationStore] Read setting file: 319 chars
+[2025-04-13 14:17:29Z INFO ConfigurationManager] Settings Loaded
+[2025-04-13 14:17:29Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-04-13 14:17:29Z INFO ConfigurationStore] IsServiceConfigured: False
+[2025-04-13 14:17:29Z INFO CommandSettings] Command 'run': 'True'
+[2025-04-13 14:17:29Z INFO ConfigurationStore] IsConfigured()
+[2025-04-13 14:17:29Z INFO ConfigurationStore] IsConfigured: True
+[2025-04-13 14:17:29Z INFO ConfigurationManager] Is configured: True
+[2025-04-13 14:17:29Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2025-04-13 14:17:29Z INFO Runner] Set runner startup type - Manual
+[2025-04-13 14:17:29Z INFO CommandSettings] Flag 'once': 'False'
+[2025-04-13 14:17:29Z INFO CommandSettings] Flag 'once': 'False'
+[2025-04-13 14:17:29Z INFO Runner] RunAsync
+[2025-04-13 14:17:29Z INFO ConfigurationManager] LoadSettings
+[2025-04-13 14:17:29Z INFO ConfigurationStore] IsConfigured()
+[2025-04-13 14:17:29Z INFO ConfigurationStore] IsConfigured: True
+[2025-04-13 14:17:29Z INFO ConfigurationManager] Is configured: True
+[2025-04-13 14:17:29Z INFO ConfigurationManager] Settings Loaded
+[2025-04-13 14:17:29Z INFO MessageListener] {
+  "AgentId": 21,
+  "AgentName": "DESKTOP-368KI6K",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus26.actions.githubusercontent.com/gRTGRm5GewqDL6a2vxHprAOwkbdnBzfx3ZggNgc0mh6qMOTX2e/",
+  "GitHubUrl": "https://github.com/rsandeep45/helm-nginx-deploy",
+  "WorkFolder": "_work"
+}
+[2025-04-13 14:17:29Z INFO MessageListener] Loading Credentials
+[2025-04-13 14:17:29Z INFO ConfigurationStore] HasCredentials()
+[2025-04-13 14:17:29Z INFO ConfigurationStore] stored True
+[2025-04-13 14:17:29Z INFO CredentialManager] GetCredentialProvider
+[2025-04-13 14:17:29Z INFO CredentialManager] Creating type OAuth
+[2025-04-13 14:17:29Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-13 14:17:29Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:17:29Z INFO HostContext] Well known directory 'Root': 'E:\gitactions\actions-runner'
+[2025-04-13 14:17:29Z INFO HostContext] Well known config file 'RSACredentials': 'E:\gitactions\actions-runner\.credentials_rsaparams'
+[2025-04-13 14:17:29Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file E:\gitactions\actions-runner\.credentials_rsaparams
+[2025-04-13 14:17:29Z INFO MessageListener] Attempt to create session.
+[2025-04-13 14:17:29Z INFO MessageListener] Connecting to the Runner Server...
+[2025-04-13 14:17:29Z INFO RunnerServer] EstablishVssConnection
+[2025-04-13 14:17:29Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-04-13 14:17:29Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-04-13 14:17:29Z INFO RunnerServer] EstablishVssConnection
+[2025-04-13 14:17:29Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-04-13 14:17:29Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-04-13 14:17:29Z INFO RunnerServer] EstablishVssConnection
+[2025-04-13 14:17:29Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-04-13 14:17:29Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-04-13 14:17:30Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-04-13 14:17:30Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-04-13 14:17:30Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-04-13 14:17:30Z INFO MessageListener] VssConnection created
+[2025-04-13 14:17:30Z INFO Terminal] WRITE LINE: 
+[2025-04-13 14:17:30Z INFO Terminal] WRITE LINE: 
+[2025-04-13 14:17:30Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file E:\gitactions\actions-runner\.credentials_rsaparams
+[2025-04-13 14:17:30Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file E:\gitactions\actions-runner\.credentials_rsaparams
+[2025-04-13 14:17:31Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-13 14:17:32Z INFO MessageListener] Session created.
+[2025-04-13 14:17:32Z INFO Terminal] WRITE LINE: Current runner version: '2.323.0'
+[2025-04-13 14:17:32Z INFO Terminal] WRITE LINE: 2025-04-13 14:17:32Z: Listening for Jobs
+[2025-04-13 14:17:32Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2025-04-13 14:17:32Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file E:\gitactions\actions-runner\.credentials_rsaparams
+[2025-04-13 14:17:33Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-13 14:18:25Z INFO MessageListener] Message '444759967136458107' received from session 'e64ba2c9-26e1-4329-b927-17ebc1fcd3ac'.
+[2025-04-13 14:18:25Z INFO ConfigurationStore] HasCredentials()
+[2025-04-13 14:18:25Z INFO ConfigurationStore] stored True
+[2025-04-13 14:18:25Z INFO CredentialManager] GetCredentialProvider
+[2025-04-13 14:18:25Z INFO CredentialManager] Creating type OAuth
+[2025-04-13 14:18:25Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-13 14:18:25Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file E:\gitactions\actions-runner\.credentials_rsaparams
+[2025-04-13 14:18:25Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file E:\gitactions\actions-runner\.credentials_rsaparams
+[2025-04-13 14:18:25Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file E:\gitactions\actions-runner\.credentials_rsaparams
+[2025-04-13 14:18:26Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-13 14:18:28Z INFO JobDispatcher] Job request 0 for plan 9e2e48a1-b18e-4b71-b597-eb92fc69a4ee job 3878a426-a34e-5859-a412-babd402701c4 received.
+[2025-04-13 14:18:28Z INFO MessageListener] Received job status event. JobState: Busy
+[2025-04-13 14:18:28Z INFO MessageListener] _getMessagesTokenSource is already disposed.
+[2025-04-13 14:18:28Z INFO Terminal] WRITE LINE: 2025-04-13 14:18:28Z: Running job: deploy
+[2025-04-13 14:18:28Z INFO JobDispatcher] Start renew job request 0 for job 3878a426-a34e-5859-a412-babd402701c4.
+[2025-04-13 14:18:29Z INFO JobDispatcher] Successfully renew job 3878a426-a34e-5859-a412-babd402701c4, job is valid till 13-04-2025 02:28:30 PM
+[2025-04-13 14:18:29Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:18:29Z INFO ProcessInvokerWrapper] Starting process:
+[2025-04-13 14:18:29Z INFO ProcessInvokerWrapper]   File name: 'E:\gitactions\actions-runner\bin\Runner.Worker.exe'
+[2025-04-13 14:18:29Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2180 2200'
+[2025-04-13 14:18:29Z INFO ProcessInvokerWrapper]   Working directory: 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:18:29Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2025-04-13 14:18:29Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-04-13 14:18:29Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2025-04-13 14:18:29Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-04-13 14:18:29Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-04-13 14:18:29Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-04-13 14:18:29Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2025-04-13 14:18:29Z INFO ProcessInvokerWrapper] Process started with process id 10552, waiting for process exit.
+[2025-04-13 14:18:29Z INFO JobDispatcher] Send job request message to worker for job 3878a426-a34e-5859-a412-babd402701c4.
+[2025-04-13 14:18:29Z INFO ProcessChannel] Sending message of length 18867, with hash '1d6963f045b6b13a91d69618e4781ec92ce578f398c21c2448089b600c614fe7'
+[2025-04-13 14:18:29Z INFO JobNotification] Entering JobStarted Notification
+[2025-04-13 14:18:29Z INFO JobNotification] Entering StartMonitor
+[2025-04-13 14:19:29Z INFO JobDispatcher] Successfully renew job 3878a426-a34e-5859-a412-babd402701c4, job is valid till 13-04-2025 02:29:30 PM
+[2025-04-13 14:19:52Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-13 14:19:52Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-04-13 14:19:52Z INFO ProcessInvokerWrapper] Finished process 10552 with exit code 102, and elapsed time 00:01:23.3806746.
+[2025-04-13 14:19:52Z INFO JobDispatcher] Worker finished for job 3878a426-a34e-5859-a412-babd402701c4. Code: 102
+[2025-04-13 14:19:52Z INFO JobDispatcher] finish job request for job 3878a426-a34e-5859-a412-babd402701c4 with result: Failed
+[2025-04-13 14:19:52Z INFO Terminal] WRITE LINE: 2025-04-13 14:19:52Z: Job deploy completed with result: Failed
+[2025-04-13 14:19:52Z INFO JobDispatcher] Stop renew job request for job 3878a426-a34e-5859-a412-babd402701c4.
+[2025-04-13 14:19:52Z INFO JobDispatcher] job renew has been cancelled, stop renew job 3878a426-a34e-5859-a412-babd402701c4.
+[2025-04-13 14:19:52Z INFO JobNotification] Entering JobCompleted Notification
+[2025-04-13 14:19:52Z INFO JobNotification] Entering EndMonitor
+[2025-04-13 14:19:52Z INFO MessageListener] Received job status event. JobState: Online
