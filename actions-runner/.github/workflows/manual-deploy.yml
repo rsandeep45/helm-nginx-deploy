@@ -1,0 +1,34 @@
+﻿name: Manual Deploy (No Checkout)
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, windows]
+
+    defaults:
+      run:
+        shell: powershell
+
+    steps:
+      - name: Manual Git Clone & Deploy
+        run: |
+          \ = "E:/gitactions/actions-runner/_work/helm-nginx-deploy/helm-nginx-deploy"
+
+          # Trust this directory for Git
+          git config --global --add safe.directory \
+
+          # Clean up any previous repo
+          if (Test-Path \) {
+            Remove-Item -Recurse -Force \
+          }
+
+          # Clone your GitHub repo
+          git clone https://github.com/rsandeep45/helm-nginx-deploy.git \
+
+          # Run your deploy script
+          Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+          cd \
+          .\deploy-local.ps1
