@@ -1,0 +1,136 @@
+[2025-04-13 14:59:56Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2025-04-13 14:59:56Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:59:56Z INFO HostContext] Well known directory 'Root': 'E:\gitactions\actions-runner'
+[2025-04-13 14:59:56Z INFO HostContext] Well known config file 'Credentials': 'E:\gitactions\actions-runner\.credentials'
+[2025-04-13 14:59:56Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:59:56Z INFO HostContext] Well known directory 'Root': 'E:\gitactions\actions-runner'
+[2025-04-13 14:59:56Z INFO HostContext] Well known config file 'Runner': 'E:\gitactions\actions-runner\.runner'
+[2025-04-13 14:59:56Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2025-04-13 14:59:56Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19045.
+[2025-04-13 14:59:56Z INFO Listener] Version: 2.323.0
+[2025-04-13 14:59:56Z INFO Listener] Commit: d8b82f44a9ec0258904d5869ae683c31d5aac299
+[2025-04-13 14:59:56Z INFO Listener] Culture: en-IN
+[2025-04-13 14:59:56Z INFO Listener] UI Culture: en-US
+[2025-04-13 14:59:56Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:59:56Z INFO HostContext] Well known directory 'Root': 'E:\gitactions\actions-runner'
+[2025-04-13 14:59:56Z INFO Listener] Validating directory permissions for: 'E:\gitactions\actions-runner'
+[2025-04-13 14:59:56Z INFO CommandLineParser] Parse
+[2025-04-13 14:59:56Z INFO CommandLineParser] Parsing 1 args
+[2025-04-13 14:59:56Z INFO CommandLineParser] parsing argument
+[2025-04-13 14:59:56Z INFO CommandLineParser] HasArgs: False
+[2025-04-13 14:59:56Z INFO CommandLineParser] Adding Command: run
+[2025-04-13 14:59:56Z INFO Listener] Arguments parsed
+[2025-04-13 14:59:56Z INFO Runner] ExecuteCommand
+[2025-04-13 14:59:56Z INFO ConfigurationStore] currentAssemblyLocation: E:\gitactions\actions-runner\bin\Runner.Listener.dll
+[2025-04-13 14:59:56Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:59:56Z INFO ConfigurationStore] binPath: E:\gitactions\actions-runner\bin
+[2025-04-13 14:59:56Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:59:56Z INFO HostContext] Well known directory 'Root': 'E:\gitactions\actions-runner'
+[2025-04-13 14:59:56Z INFO ConfigurationStore] RootFolder: E:\gitactions\actions-runner
+[2025-04-13 14:59:56Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:59:56Z INFO HostContext] Well known directory 'Root': 'E:\gitactions\actions-runner'
+[2025-04-13 14:59:56Z INFO HostContext] Well known config file 'Runner': 'E:\gitactions\actions-runner\.runner'
+[2025-04-13 14:59:56Z INFO ConfigurationStore] ConfigFilePath: E:\gitactions\actions-runner\.runner
+[2025-04-13 14:59:56Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:59:56Z INFO HostContext] Well known directory 'Root': 'E:\gitactions\actions-runner'
+[2025-04-13 14:59:56Z INFO HostContext] Well known config file 'MigratedRunner': 'E:\gitactions\actions-runner\.runner_migrated'
+[2025-04-13 14:59:56Z INFO ConfigurationStore] MigratedConfigFilePath: E:\gitactions\actions-runner\.runner_migrated
+[2025-04-13 14:59:56Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:59:56Z INFO HostContext] Well known directory 'Root': 'E:\gitactions\actions-runner'
+[2025-04-13 14:59:56Z INFO HostContext] Well known config file 'Credentials': 'E:\gitactions\actions-runner\.credentials'
+[2025-04-13 14:59:56Z INFO ConfigurationStore] CredFilePath: E:\gitactions\actions-runner\.credentials
+[2025-04-13 14:59:56Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:59:56Z INFO HostContext] Well known directory 'Root': 'E:\gitactions\actions-runner'
+[2025-04-13 14:59:56Z INFO HostContext] Well known config file 'MigratedCredentials': 'E:\gitactions\actions-runner\.credentials_migrated'
+[2025-04-13 14:59:56Z INFO ConfigurationStore] MigratedCredFilePath: E:\gitactions\actions-runner\.credentials_migrated
+[2025-04-13 14:59:56Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:59:56Z INFO HostContext] Well known directory 'Root': 'E:\gitactions\actions-runner'
+[2025-04-13 14:59:56Z INFO HostContext] Well known config file 'Service': 'E:\gitactions\actions-runner\.service'
+[2025-04-13 14:59:56Z INFO ConfigurationStore] ServiceConfigFilePath: E:\gitactions\actions-runner\.service
+[2025-04-13 14:59:56Z INFO CommandSettings] Flag 'help': 'False'
+[2025-04-13 14:59:56Z INFO CommandSettings] Flag 'version': 'False'
+[2025-04-13 14:59:56Z INFO CommandSettings] Flag 'commit': 'False'
+[2025-04-13 14:59:56Z INFO CommandSettings] Flag 'check': 'False'
+[2025-04-13 14:59:57Z INFO CommandSettings] Command 'configure': 'False'
+[2025-04-13 14:59:57Z INFO CommandSettings] Command 'remove': 'False'
+[2025-04-13 14:59:57Z INFO CommandSettings] Command 'warmup': 'False'
+[2025-04-13 14:59:57Z INFO ConfigurationManager] LoadSettings
+[2025-04-13 14:59:57Z INFO ConfigurationStore] IsConfigured()
+[2025-04-13 14:59:57Z INFO ConfigurationStore] IsConfigured: True
+[2025-04-13 14:59:57Z INFO ConfigurationManager] Is configured: True
+[2025-04-13 14:59:57Z INFO ConfigurationStore] Read setting file: 316 chars
+[2025-04-13 14:59:57Z INFO ConfigurationManager] Settings Loaded
+[2025-04-13 14:59:57Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-04-13 14:59:57Z INFO ConfigurationStore] IsServiceConfigured: True
+[2025-04-13 14:59:57Z INFO CommandSettings] Command 'run': 'True'
+[2025-04-13 14:59:57Z INFO ConfigurationStore] IsConfigured()
+[2025-04-13 14:59:57Z INFO ConfigurationStore] IsConfigured: True
+[2025-04-13 14:59:57Z INFO ConfigurationManager] Is configured: True
+[2025-04-13 14:59:57Z INFO Runner] Try determine runner startup type base on console redirects.
+[2025-04-13 14:59:57Z INFO Runner] Set runner startup type - Manual
+[2025-04-13 14:59:57Z INFO CommandSettings] Flag 'once': 'False'
+[2025-04-13 14:59:57Z INFO CommandSettings] Flag 'once': 'False'
+[2025-04-13 14:59:57Z INFO Runner] RunAsync
+[2025-04-13 14:59:57Z INFO ConfigurationManager] LoadSettings
+[2025-04-13 14:59:57Z INFO ConfigurationStore] IsConfigured()
+[2025-04-13 14:59:57Z INFO ConfigurationStore] IsConfigured: True
+[2025-04-13 14:59:57Z INFO ConfigurationManager] Is configured: True
+[2025-04-13 14:59:57Z INFO ConfigurationManager] Settings Loaded
+[2025-04-13 14:59:57Z INFO MessageListener] {
+  "AgentId": 22,
+  "AgentName": "sandy-runner",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus26.actions.githubusercontent.com/gRTGRm5GewqDL6a2vxHprAOwkbdnBzfx3ZggNgc0mh6qMOTX2e/",
+  "GitHubUrl": "https://github.com/rsandeep45/helm-nginx-deploy",
+  "WorkFolder": "_work"
+}
+[2025-04-13 14:59:57Z INFO MessageListener] Loading Credentials
+[2025-04-13 14:59:57Z INFO ConfigurationStore] HasCredentials()
+[2025-04-13 14:59:57Z INFO ConfigurationStore] stored True
+[2025-04-13 14:59:57Z INFO CredentialManager] GetCredentialProvider
+[2025-04-13 14:59:57Z INFO CredentialManager] Creating type OAuth
+[2025-04-13 14:59:57Z INFO CredentialManager] Creating credential type: OAuth
+[2025-04-13 14:59:57Z INFO HostContext] Well known directory 'Bin': 'E:\gitactions\actions-runner\bin'
+[2025-04-13 14:59:57Z INFO HostContext] Well known directory 'Root': 'E:\gitactions\actions-runner'
+[2025-04-13 14:59:57Z INFO HostContext] Well known config file 'RSACredentials': 'E:\gitactions\actions-runner\.credentials_rsaparams'
+[2025-04-13 14:59:57Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file E:\gitactions\actions-runner\.credentials_rsaparams
+[2025-04-13 14:59:57Z INFO MessageListener] Attempt to create session.
+[2025-04-13 14:59:57Z INFO MessageListener] Connecting to the Runner Server...
+[2025-04-13 14:59:57Z INFO RunnerServer] EstablishVssConnection
+[2025-04-13 14:59:57Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2025-04-13 14:59:57Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-04-13 14:59:57Z INFO RunnerServer] EstablishVssConnection
+[2025-04-13 14:59:57Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-04-13 14:59:57Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-04-13 14:59:57Z INFO RunnerServer] EstablishVssConnection
+[2025-04-13 14:59:57Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2025-04-13 14:59:57Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2025-04-13 14:59:58Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-04-13 14:59:58Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-04-13 14:59:58Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2025-04-13 14:59:58Z INFO MessageListener] VssConnection created
+[2025-04-13 14:59:58Z INFO Terminal] WRITE LINE: 
+[2025-04-13 14:59:58Z INFO Terminal] WRITE LINE: 
+[2025-04-13 14:59:58Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file E:\gitactions\actions-runner\.credentials_rsaparams
+[2025-04-13 14:59:58Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file E:\gitactions\actions-runner\.credentials_rsaparams
+[2025-04-13 14:59:59Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2025-04-13 14:59:59Z ERR  GitHubActionsService] POST request to https://pipelinesghubeus26.actions.githubusercontent.com/gRTGRm5GewqDL6a2vxHprAOwkbdnBzfx3ZggNgc0mh6qMOTX2e/_apis/distributedtask/pools/1/sessions failed. HTTP Status: Conflict
+[2025-04-13 14:59:59Z ERR  MessageListener] Catch exception during create session.
+[2025-04-13 14:59:59Z ERR  MessageListener] GitHub.DistributedTask.WebApi.TaskAgentSessionConflictException: The actions runner sandy-runner already has an active session.
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.CreateSessionAsync(CancellationToken token)
+[2025-04-13 14:59:59Z INFO MessageListener] The session for this runner already exists.
+[2025-04-13 14:59:59Z ERR  Terminal] WRITE ERROR: A session for this runner already exists.
+[2025-04-13 14:59:59Z INFO MessageListener] The session conflict exception haven't reached retry limit.
+[2025-04-13 14:59:59Z ERR  Terminal] WRITE ERROR: 2025-04-13 14:59:59Z: Runner connect error: The actions runner sandy-runner already has an active session.. Retrying until reconnected.
+[2025-04-13 14:59:59Z INFO MessageListener] Sleeping for 30 seconds before retrying.
+[2025-04-13 15:00:08Z INFO Terminal] WRITE LINE: Exiting...
+[2025-04-13 15:00:08Z INFO ConfigurationStore] IsServiceConfigured()
+[2025-04-13 15:00:08Z INFO ConfigurationStore] IsServiceConfigured: True
+[2025-04-13 15:00:08Z INFO Runner] Received Ctrl-C signal, stop Runner.Listener and Runner.Worker.
+[2025-04-13 15:00:08Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2025-04-13 15:00:08Z INFO Listener] Runner execution been cancelled.
